@@ -58,7 +58,7 @@ section {
     line-height: 2em;
     font-family: var(--fonte3);
     font-weight: normal;
-    font-size: 3.3vw;
+    font-size: 4vw;
 
 }
 
@@ -91,19 +91,19 @@ section > p {
 
 #img01 {
     background-image: url('../imagens/background001.jpg');
-    background-position: center right;
+    background-position: right center;
+    background-size: cover;
 }
 
 #img02 {
-    background-image: url('../imagens/background002.jpg');background-position: center right;
+    background-image: url('../imagens/background002.jpg');background-position: right center;
 }
 
 footer {
     background-color: black;
-    font-size: 1.2em;
     text-align: center;
     color: white;
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -111,10 +111,8 @@ footer a {
     color: lightsalmon;
     text-decoration: none;
     font-weight: bolder;
-    transition-duration: 0.5s;
 }
 
 footer a:hover {
     text-decoration: underline;
-    font-size: 17px;
 }
