@@ -1,0 +1,120 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Amatic SC", serif;
+    --fonte3: "Patrick Hand", serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 40px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 8.9vw;
+}
+
+header > p {
+    min-height: 50px;
+}
+
+header a {
+    color: lightsalmon;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+header a:hover {
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    font-weight: normal;
+    font-size: 3.3vw;
+
+}
+
+section > p {
+    padding-bottom: 1em;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.imagem {
+    background-color: rgba(0, 0, 0, 0.267);
+    background-size: cover;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-attachment: fixed;
+}
+
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.420);
+    display: inline-block;
+    border-radius: 10px 10px 0px 10px;
+    box-shadow: 1px 1px 20px black ;
+    padding: 8px;
+    text-shadow: 1px 1px 0px black;
+    
+}
+
+#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: center right;
+}
+
+#img02 {
+    background-image: url('../imagens/background002.jpg');background-position: center right;
+}
+
+footer {
+    background-color: black;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+
+footer a {
+    color: lightsalmon;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    font-size: 17px;
+}
